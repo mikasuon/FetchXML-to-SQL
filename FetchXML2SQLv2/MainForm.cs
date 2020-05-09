@@ -140,8 +140,8 @@ namespace FetchXML2SQLv2
             operatorReplacement.Add("this-month", "TBD");
             operatorReplacement.Add("next-month", "TBD");
             operatorReplacement.Add("on", "=");
-            operatorReplacement.Add("on-or-before", "TBD");
-            operatorReplacement.Add("on-or-after", "TBD");
+            operatorReplacement.Add("on-or-before", "<=");
+            operatorReplacement.Add("on-or-after", ">=");
             operatorReplacement.Add("last-year", "TBD");
             operatorReplacement.Add("this-year", "TBD");
             operatorReplacement.Add("next-year", "TBD");
